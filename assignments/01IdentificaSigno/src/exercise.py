@@ -1,8 +1,7 @@
-import math
-def main():
-    #escribe tu código abajo de esta línea
-    pass
-    
-
-if __name__ == '__main__':
-    main()
+numero = int(input("Dame un numero entero : " ))
+if numero > 0 :
+    print("Es positivo " )
+elif numero < 0 :
+    print("Es negativo " )
+else:
+    print("El numero es cero")
